@@ -7,7 +7,6 @@ export default defineConfig({
   
   server: {
     port: 3000,
-    open: true,        // auto opens browser
-    strictPort: true   // fails if 3000 is occupied
+    open: true
   }
 })
